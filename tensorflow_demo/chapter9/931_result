@@ -1,0 +1,304 @@
+/Users/shirui/Applications/anaconda/anaconda3/bin/python /Users/shirui/Documents/Project/program/pythonLearn/demo_2/tensorflow_demo/chapter9/demo_923_1.py
+/Users/shirui/Applications/anaconda/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-09-13 08:58:05.211391: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-09-13 08:58:05.212994: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 4. Tune using inter_op_parallelism_threads for best performance.
+In iteration: 1
+After 0 steps, perplexity is 10000.321
+After 100 steps, perplexity is 1943.561
+After 200 steps, perplexity is 1272.429
+After 300 steps, perplexity is 981.020
+After 400 steps, perplexity is 802.236
+After 500 steps, perplexity is 685.255
+After 600 steps, perplexity is 606.197
+After 700 steps, perplexity is 545.416
+After 800 steps, perplexity is 492.016
+After 900 steps, perplexity is 452.139
+After 1000 steps, perplexity is 423.302
+After 1100 steps, perplexity is 394.442
+After 1200 steps, perplexity is 371.805
+After 1300 steps, perplexity is 350.071
+Epoch: 1 Train Perplexity: 346.690
+Epoch: 1 Eval Perplexity: 191.396
+In iteration: 2
+After 1400 steps, perplexity is 184.734
+After 1500 steps, perplexity is 170.633
+After 1600 steps, perplexity is 173.269
+After 1700 steps, perplexity is 170.235
+After 1800 steps, perplexity is 165.376
+After 1900 steps, perplexity is 163.306
+After 2000 steps, perplexity is 161.562
+After 2100 steps, perplexity is 156.731
+After 2200 steps, perplexity is 153.536
+After 2300 steps, perplexity is 152.410
+After 2400 steps, perplexity is 149.969
+After 2500 steps, perplexity is 146.968
+After 2600 steps, perplexity is 143.352
+Epoch: 2 Train Perplexity: 142.766
+Epoch: 2 Eval Perplexity: 139.606
+In iteration: 3
+After 2700 steps, perplexity is 125.558
+After 2800 steps, perplexity is 109.966
+After 2900 steps, perplexity is 116.908
+After 3000 steps, perplexity is 114.633
+After 3100 steps, perplexity is 113.562
+After 3200 steps, perplexity is 113.643
+After 3300 steps, perplexity is 112.988
+After 3400 steps, perplexity is 111.023
+After 3500 steps, perplexity is 109.058
+After 3600 steps, perplexity is 108.668
+After 3700 steps, perplexity is 108.573
+After 3800 steps, perplexity is 106.498
+After 3900 steps, perplexity is 104.570
+Epoch: 3 Train Perplexity: 104.184
+Epoch: 3 Eval Perplexity: 119.247
+In iteration: 4
+After 4000 steps, perplexity is 102.212
+After 4100 steps, perplexity is 86.467
+After 4200 steps, perplexity is 92.461
+After 4300 steps, perplexity is 92.093
+After 4400 steps, perplexity is 91.234
+After 4500 steps, perplexity is 90.865
+After 4600 steps, perplexity is 90.458
+After 4700 steps, perplexity is 89.761
+After 4800 steps, perplexity is 88.364
+After 4900 steps, perplexity is 87.915
+After 5000 steps, perplexity is 88.279
+After 5100 steps, perplexity is 86.884
+After 5200 steps, perplexity is 85.923
+After 5300 steps, perplexity is 85.450
+Epoch: 4 Train Perplexity: 85.438
+Epoch: 4 Eval Perplexity: 111.844
+In iteration: 5
+After 5400 steps, perplexity is 75.645
+After 5500 steps, perplexity is 76.996
+After 5600 steps, perplexity is 80.593
+After 5700 steps, perplexity is 78.326
+After 5800 steps, perplexity is 77.236
+After 5900 steps, perplexity is 77.450
+After 6000 steps, perplexity is 77.634
+After 6100 steps, perplexity is 76.266
+After 6200 steps, perplexity is 75.941
+After 6300 steps, perplexity is 76.561
+After 6400 steps, perplexity is 75.926
+After 6500 steps, perplexity is 75.201
+After 6600 steps, perplexity is 74.280
+Epoch: 5 Train Perplexity: 74.471
+Epoch: 5 Eval Perplexity: 108.225
+Test Perplexity: 104.389
+
+Process finished with exit code 0
+
+
+(array([[0, 1]], dtype=int32), array([2], dtype=int32))
+(array([[1, 2]], dtype=int32), array([3], dtype=int32))
+(array([[2, 3]], dtype=int32), array([4], dtype=int32))
+(array([[3, 4]], dtype=int32), array([5], dtype=int32))
+(array([[4, 5]], dtype=int32), array([6], dtype=int32))
+(array([[5, 6]], dtype=int32), array([7], dtype=int32))
+(array([[6, 7]], dtype=int32), array([8], dtype=int32))
+(array([[7, 8]], dtype=int32), array([9], dtype=int32))
+(array([[8, 9]], dtype=int32), array([10], dtype=int32))
+(array([[ 9, 10]], dtype=int32), array([11], dtype=int32))
+(array([[10, 11]], dtype=int32), array([12], dtype=int32))
+(array([[11, 12]], dtype=int32), array([13], dtype=int32))
+(array([[12, 13]], dtype=int32), array([14], dtype=int32))
+(array([[13, 14]], dtype=int32), array([15], dtype=int32))
+(array([[14, 15]], dtype=int32), array([16], dtype=int32))
+(array([[15, 16]], dtype=int32), array([17], dtype=int32))
+(array([[16, 17]], dtype=int32), array([18], dtype=int32))
+(array([[17, 18]], dtype=int32), array([19], dtype=int32))
+(array([[18, 19]], dtype=int32), array([20], dtype=int32))
+(array([[19, 20]], dtype=int32), array([21], dtype=int32))
+
+(array([[0, 1]], dtype=int32), array([2], dtype=int32))
+(array([[1, 2]], dtype=int32), array([3], dtype=int32))
+(array([[2, 3]], dtype=int32), array([4], dtype=int32))
+(array([[3, 4]], dtype=int32), array([5], dtype=int32))
+(array([[4, 5]], dtype=int32), array([6], dtype=int32))
+(array([[5, 6]], dtype=int32), array([7], dtype=int32))
+(array([[6, 7]], dtype=int32), array([8], dtype=int32))
+(array([[7, 8]], dtype=int32), array([9], dtype=int32))
+(array([[8, 9]], dtype=int32), array([10], dtype=int32))
+(array([[ 9, 10]], dtype=int32), array([11], dtype=int32))
+(array([[10, 11]], dtype=int32), array([12], dtype=int32))
+(array([[11, 12]], dtype=int32), array([13], dtype=int32))
+(array([[12, 13]], dtype=int32), array([14], dtype=int32))
+(array([[13, 14]], dtype=int32), array([15], dtype=int32))
+(array([[14, 15]], dtype=int32), array([16], dtype=int32))
+(array([[15, 16]], dtype=int32), array([17], dtype=int32))
+(array([[16, 17]], dtype=int32), array([18], dtype=int32))
+(array([[17, 18]], dtype=int32), array([19], dtype=int32))
+(array([[18, 19]], dtype=int32), array([20], dtype=int32))
+(array([[19, 20]], dtype=int32), array([21], dtype=int32))
+(array([[0, 1]], dtype=int32), array([2], dtype=int32))
+(array([[1, 2]], dtype=int32), array([3], dtype=int32))
+(array([[2, 3]], dtype=int32), array([4], dtype=int32))
+(array([[3, 4]], dtype=int32), array([5], dtype=int32))
+(array([[4, 5]], dtype=int32), array([6], dtype=int32))
+(array([[5, 6]], dtype=int32), array([7], dtype=int32))
+(array([[6, 7]], dtype=int32), array([8], dtype=int32))
+(array([[7, 8]], dtype=int32), array([9], dtype=int32))
+(array([[8, 9]], dtype=int32), array([10], dtype=int32))
+(array([[ 9, 10]], dtype=int32), array([11], dtype=int32))
+(array([[10, 11]], dtype=int32), array([12], dtype=int32))
+(array([[11, 12]], dtype=int32), array([13], dtype=int32))
+(array([[12, 13]], dtype=int32), array([14], dtype=int32))
+(array([[13, 14]], dtype=int32), array([15], dtype=int32))
+(array([[14, 15]], dtype=int32), array([16], dtype=int32))
+(array([[15, 16]], dtype=int32), array([17], dtype=int32))
+(array([[16, 17]], dtype=int32), array([18], dtype=int32))
+(array([[17, 18]], dtype=int32), array([19], dtype=int32))
+(array([[18, 19]], dtype=int32), array([20], dtype=int32))
+(array([[19, 20]], dtype=int32), array([21], dtype=int32))
+
+
+array([[6, 7]], dtype=int32), array([8], dtype=int32))
+(array([[ 9, 10]], dtype=int32), array([11], dtype=int32))
+(array([[5, 6]], dtype=int32), array([7], dtype=int32))
+(array([[7, 8]], dtype=int32), array([9], dtype=int32))
+(array([[1, 2]], dtype=int32), array([3], dtype=int32))
+(array([[1, 2]], dtype=int32), array([3], dtype=int32))
+(array([[11, 12]], dtype=int32), array([13], dtype=int32))
+(array([[5, 6]], dtype=int32), array([7], dtype=int32))
+(array([[8, 9]], dtype=int32), array([10], dtype=int32))
+(array([[10, 11]], dtype=int32), array([12], dtype=int32))
+(array([[2, 3]], dtype=int32), array([4], dtype=int32))
+(array([[15, 16]], dtype=int32), array([17], dtype=int32))
+(array([[17, 18]], dtype=int32), array([19], dtype=int32))
+(array([[6, 7]], dtype=int32), array([8], dtype=int32))
+(array([[13, 14]], dtype=int32), array([15], dtype=int32))
+(array([[18, 19]], dtype=int32), array([20], dtype=int32))
+(array([[ 9, 10]], dtype=int32), array([11], dtype=int32))
+(array([[2, 3]], dtype=int32), array([4], dtype=int32))
+(array([[16, 17]], dtype=int32), array([18], dtype=int32))
+(array([[18, 19]], dtype=int32), array([20], dtype=int32))
+
+(array([[13, 14]], dtype=int32), array([15], dtype=int32))
+(array([[4, 5]], dtype=int32), array([6], dtype=int32))
+(array([[14, 15]], dtype=int32), array([16], dtype=int32))
+(array([[0, 1]], dtype=int32), array([2], dtype=int32))
+(array([[15, 16]], dtype=int32), array([17], dtype=int32))
+(array([[3, 4]], dtype=int32), array([5], dtype=int32))
+(array([[19, 20]], dtype=int32), array([21], dtype=int32))
+(array([[12, 13]], dtype=int32), array([14], dtype=int32))
+(array([[19, 20]], dtype=int32), array([21], dtype=int32))
+(array([[7, 8]], dtype=int32), array([9], dtype=int32))
+(array([[0, 1]], dtype=int32), array([2], dtype=int32))
+(array([[12, 13]], dtype=int32), array([14], dtype=int32))
+(array([[4, 5]], dtype=int32), array([6], dtype=int32))
+(array([[3, 4]], dtype=int32), array([5], dtype=int32))
+(array([[17, 18]], dtype=int32), array([19], dtype=int32))
+(array([[11, 12]], dtype=int32), array([13], dtype=int32))
+(array([[10, 11]], dtype=int32), array([12], dtype=int32))
+(array([[14, 15]], dtype=int32), array([16], dtype=int32))
+(array([[16, 17]], dtype=int32), array([18], dtype=int32))
+(array([[8, 9]], dtype=int32), array([10], dtype=int32))
+
+
+(array([[[0, 1]],
+
+       [[1, 2]],
+
+       [[2, 3]],
+
+       [[3, 4]],
+
+       [[4, 5]]], dtype=int32), array([[2],
+       [3],
+       [4],
+       [5],
+       [6]], dtype=int32))
+(array([[[ 5,  6]],
+
+       [[ 6,  7]],
+
+       [[ 7,  8]],
+
+       [[ 8,  9]],
+
+       [[ 9, 10]]], dtype=int32), array([[ 7],
+       [ 8],
+       [ 9],
+       [10],
+       [11]], dtype=int32))
+(array([[[10, 11]],
+
+       [[11, 12]],
+
+       [[12, 13]],
+
+       [[13, 14]],
+
+       [[14, 15]]], dtype=int32), array([[12],
+       [13],
+       [14],
+       [15],
+       [16]], dtype=int32))
+(array([[[15, 16]],
+
+       [[16, 17]],
+
+       [[17, 18]],
+
+       [[18, 19]],
+
+       [[19, 20]]], dtype=int32), array([[17],
+       [18],
+       [19],
+       [20],
+       [21]], dtype=int32))
+(array([[[0, 1]],
+
+       [[1, 2]],
+
+       [[2, 3]],
+
+       [[3, 4]],
+
+       [[4, 5]]], dtype=int32), array([[2],
+       [3],
+       [4],
+       [5],
+       [6]], dtype=int32))
+(array([[[ 5,  6]],
+
+       [[ 6,  7]],
+
+       [[ 7,  8]],
+
+       [[ 8,  9]],
+
+       [[ 9, 10]]], dtype=int32), array([[ 7],
+       [ 8],
+       [ 9],
+       [10],
+       [11]], dtype=int32))
+(array([[[10, 11]],
+
+       [[11, 12]],
+
+       [[12, 13]],
+
+       [[13, 14]],
+
+       [[14, 15]]], dtype=int32), array([[12],
+       [13],
+       [14],
+       [15],
+       [16]], dtype=int32))
+(array([[[15, 16]],
+
+       [[16, 17]],
+
+       [[17, 18]],
+
+       [[18, 19]],
+
+       [[19, 20]]], dtype=int32), array([[17],
+       [18],
+       [19],
+       [20],
+       [21]], dtype=int32))
+
+
